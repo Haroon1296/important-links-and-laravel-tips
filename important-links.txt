@@ -1,0 +1,71 @@
+Mutiple Authentication Laravel:
+	https://pusher.com/tutorials/multiple-authentication-guards-laravel
+
+Code Beautifier:
+	https://htmlformatter.com/
+
+jQuery Loader:
+	https://www.jqueryscript.net/demo/jQuery-Plugin-For-Creating-Loading-Overlay-with-CSS3-Animations-waitMe/
+
+jQuery Scripts:
+	https://www.jqueryscript.net/
+
+Twilio Laravel:
+	https://www.twilio.com/blog/create-sms-portal-laravel-php-twilio
+
+Laravel WebSockets ChatApp:
+	https://www.youtube.com/watch?v=H_4UubWE9NQ&t=19s
+
+Laravel with react js (Playlists)
+	https://www.youtube.com/c/AmitavRoyDevZone/playlists	
+	https://www.youtube.com/c/EasyCodeSardar/playlists
+	https://www.youtube.com/watch?v=UqcxmY9XTs4
+
+Larvael code for helps:
+	https://stacklearning.com/category/laravel
+
+javascript code minified / compressed:
+	https://obfuscator.io/
+
+Top 1,000 Laravel Packages:
+	https://laravel.bepsvpt.me/
+
+Push notification on Desktop laravel:
+	https://pusher.com/tutorials/desktop-notifications-laravel
+
+Send friend request to user laravel package:
+	https://github.com/hootlex/laravel-friendships
+
+Composer require laravel/passport not working in laravel 5.8
+	https://stackoverflow.com/questions/58711707/composer-require-laravel-passport-not-working-in-laravel-5-8 / ( composer require laravel/passport:7.5.1 )
+
+Codeigniter email verification:
+	https://forum.codeigniter.com/thread-66461.html
+
+Remove public from url in laravel:
+	https://stackoverflow.com/questions/28364496/laravel-5-remove-public-from-url?page=1&tab=votes
+
+Font family:
+	font-family: 'Courier New', monospace;
+
+Change date format using jQuery;
+	function formatDate(date) 
+        {
+            var d = new Date(date),
+                month = '' + (d.getMonth() + 1),
+                day = '' + d.getDate(),
+                year = d.getFullYear();
+
+            if (month.length < 2) month = '0' + month;
+            if (day.length < 2) day = '0' + day;
+
+            return [day, month, year].join('/');
+        }
+
+Bootstrap checkbox toggle:
+	https://www.bootstraptoggle.com/
+
+	// In datatable add this line end of columns array
+	"fnDrawCallback": function() {
+         	jQuery('.status').bootstrapToggle();
+         }
