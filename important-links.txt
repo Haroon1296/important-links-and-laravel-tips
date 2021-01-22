@@ -72,3 +72,6 @@ Bootstrap checkbox toggle:
 	 
 Broadcasting chanel:
 	https://www.youtube.com/watch?v=2PTgJwxf6UI
+	
+Get checked radio button value jQuery
+	 $('input[type=radio][name=shipment]:checked').attr('data-cost');
