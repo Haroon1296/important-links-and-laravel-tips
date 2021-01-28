@@ -75,3 +75,6 @@ Broadcasting chanel:
 	
 Get checked radio button value jQuery
 	 $('input[type=radio][name=shipment]:checked').attr('data-cost');
+	 
+Slug create
+	 strtolower(trim(preg_replace("![^a-z0-9]+!i", "-", $request->title), '-'));
