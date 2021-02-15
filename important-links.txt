@@ -78,3 +78,6 @@ Get checked radio button value jQuery
 	 
 Slug create
 	 strtolower(trim(preg_replace("![^a-z0-9]+!i", "-", $request->title), '-'));
+
+Preview images before upload
+	https://stackoverflow.com/questions/39439760/preview-images-before-upload
