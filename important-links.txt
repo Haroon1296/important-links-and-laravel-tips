@@ -81,3 +81,9 @@ Slug create
 
 Preview images before upload
 	https://stackoverflow.com/questions/39439760/preview-images-before-upload
+	
+Add dash in auto complete phone number:
+	https://stackoverflow.com/questions/31352499/add-dash-in-auto-complete-phone-number
+	$('#phone-number-field').keyup(function(){
+	    $(this).val($(this).val().replace(/(\d{3})\-?(\d{3})\-?(\d{4})/,'$1-$2-$3'))
+	});
